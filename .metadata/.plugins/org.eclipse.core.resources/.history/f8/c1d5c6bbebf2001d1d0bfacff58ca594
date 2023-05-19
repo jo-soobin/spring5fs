@@ -1,0 +1,13 @@
+package main;
+import java.util.Collection;
+public class MemberListPrinter {
+	
+	private MemberDao memberDao;
+	priv
+	public void printAll() {
+		// TODO Auto-generated method stub
+		Collection<Member> members = memberDao.selectAll();
+		emembers.forEach(m -> printer.print(m));
+	}
+
+}
